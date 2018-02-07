@@ -739,7 +739,7 @@ p {
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
     image-rendering: crisp-edges;
-    max-width: 100px;
+    max-width: 200px;
     display: inline-block;
     vertical-align: baseline;
     margin: 0;
@@ -748,9 +748,9 @@ p {
 .footer-logo {
 	text-indent: -99999px;
 	display: inline-block;
-	width: 200px;
-	height: 50px;
-	background: url('../images/logo-footer.png') no-repeat center;
+	width: 300px;
+	height: 65px;
+	background: url('../images/mits.png') no-repeat center;
 	background-size: cover;
 	image-rendering: -webkit-optimize-contrast;
     image-rendering: -moz-crisp-edges;
