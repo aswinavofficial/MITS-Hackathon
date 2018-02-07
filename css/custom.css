@@ -76,10 +76,10 @@ p {
 .site-logo {
     display: inline-block;
     text-indent: -9999999px;
-	background: url('../images/logo.png') no-repeat center;	    
+	background: url('../images/mits.png') no-repeat center;	    
 	background-size: cover;
 	width: 200px;
-	height: 23px;
+	height: 45px;
 	image-rendering: -webkit-optimize-contrast;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
