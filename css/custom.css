@@ -184,6 +184,8 @@ p {
 .carestack img {
     margin: 0 auto;
     display: block;
+	width : 200px;
+	height : 45px;
 }
 
 .carestack:hover {
