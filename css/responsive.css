@@ -1,0 +1,248 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1024px) {
+    .partner-list li {
+        margin-bottom: 70px;
+        text-align: center;
+        margin-right: 0;
+        width: 100%;
+    }
+    .partner-list li:first-child {
+        margin-bottom: 70px
+    }
+    .hamburger {
+        display: block;
+    }
+    .main-nav {
+        display: none;
+    }
+    .menu-open .header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1;
+        overflow: auto;
+    }
+    .menu-open .main-nav {
+        margin-top: 60px;
+        display: block;
+    }
+    .menu-open .main-nav li {
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 0;
+        font-size: 24px;
+    }
+    .menu-open .site-logo {
+        color: #05406B;
+    }
+    .menu-open .main-nav li a {
+        color: #05406B;
+    }
+    .menu-open .hamburger span {
+        background-color: #000;
+    }
+    .schedule .container-fluid, .faq .container-fluid, .register .container-fluid, .prizes .container-fluid, .rules .container-fluid {
+        max-width: 900px;
+    }
+    .contact-list {
+    	padding: 30px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .schedule .container-fluid, .faq .container-fluid, .register .container-fluid, .prizes .container-fluid, .rules .container-fluid {
+        max-width: 768px;
+    }
+
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .schedule .container-fluid, .faq .container-fluid, .register .container-fluid, .prizes .container-fluid, .rules .container-fluid {
+        max-width: 600px;
+    }
+    h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .header {
+        padding-top: 40px;
+    }
+    .padded-section {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    .register {
+        padding-top: 50px;
+    }
+    .banner-text h1 {
+        margin-top: 124px;
+        font-size: 36px;
+    }
+    .banner-text h1 span {
+        font-size: 48px;
+    }
+    .banner {
+        padding-bottom: 124px;
+    }
+    .prize-pool h3 {
+        font-size: 24px;
+    }
+    .prize-pool h4 i {
+        font-size: 54px;
+    }
+    .prize-pool h4 {
+        font-size: 70px;
+    }
+    .accordion-list li {
+        padding: 15px 0;
+    }
+    .accordion-list li.active .acc-body {
+        padding-top: 15px;
+    }
+    .accordion-list li .acc-body {
+        padding-right: 20px;
+    }
+    .schedule h3 {
+        font-size: 24px;
+    }
+    .partner-list li img {
+        max-width: 300px;
+    }
+    .contact-list li {
+    	width: 100%;
+    	margin-bottom: 30px;
+    	border: none;
+    }
+    .contact-list li:last-child {
+		margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .rule-list {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+    .contact-list {
+        padding: 30px;
+    }
+    .prize-pool {
+        padding: 30px;
+    }
+    .contact-list li {
+        font-size: 20px;
+    }
+    .banner-text h1 {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+    .banner-text h1 span {
+        font-size: 30px;
+    }
+    .location-list li {
+        font-size: 16px;
+    }
+    .location-list li i {
+        font-size: 26px;
+    }
+    .banner {
+        padding-bottom: 80px;
+    }
+    .footer {
+        margin-top: 80px;
+    }
+    .credits-list li {
+        margin-bottom: 30px;
+        display: block;
+        margin-right: 0;
+    }
+    .credits-list {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 34px;
+    }
+    .prize-pool h3 {
+        font-size: 18px;
+    }
+    .prize-pool h4 {
+        font-size: 50px;
+    }
+    .prize-pool h4 i {
+        font-size: 40px;
+    }
+    .contact-list {
+        padding: 20px 15px;
+    }
+    .contact-list li {
+    	padding: 0;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .contact-list {
+        padding: 30px;
+    }
+    .contact-list li {
+        display: block;
+        margin-bottom: 30px;
+        border-right: none;
+    }
+    .contact-list li:first-child {
+		margin-bottom: 30px;
+    }
+    .contact-list li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .event-list li span {
+        width: 100%;
+        padding-bottom: 7px;
+    }
+    .event-list {
+        margin-top: 30px;
+    }
+    .event-list:before {
+        height: calc( 100% - 55px);
+    }
+    .day1 {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+	.contact-list {
+		padding: 25px;
+	}
+}
