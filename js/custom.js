@@ -45,7 +45,7 @@
 
 
 	//Countdown Timer
-	var countDownDate = new Date("Nov 11, 2017 00:00:00").getTime();
+	var countDownDate = new Date("Mar 5, 2018 00:00:00").getTime();
 		var x = setInterval(function() {
 	  var now = new Date().getTime();
 	  var distance = countDownDate - now;
