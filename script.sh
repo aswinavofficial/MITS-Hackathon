@@ -1,4 +1,4 @@
 git add .
 git add *
-git commit -m "new commit "
+git commit -m "$1"
 git push -u origin master
