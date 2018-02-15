@@ -137,10 +137,11 @@ p {
     border: 3px solid #313131; 
 	box-sizing: border-box;
   line-height: 4.8rem;
-  border-color: #FFFFFF;
+/*  border-color: #FFFFFF; */
+  	border-color : #03A9F4;
   color: #FFFFFF;
   font-size:25pt;
-border-width: thin;
+ /* border-width: thin;  */
   width:200px;
    margin-top:50px; 
   margin-left: 500px;   
@@ -180,7 +181,8 @@ border-width: thin;
 .location-list i {
     font-size: 30px;
     margin-right: 6px;
-    color: #42BA78;
+  /*  color: #42BA78; */
+	color: #03A9F4;
     display: inline-block;
     vertical-align: middle;
 }
