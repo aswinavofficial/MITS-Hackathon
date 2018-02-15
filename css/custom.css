@@ -230,7 +230,8 @@ p {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
-    color: #42BA78;
+  /*  color: #42BA78; */
+	color: #03A9F4;
 }
 
 .about p {
@@ -255,7 +256,8 @@ p {
 
 .schedule h3 {
     font-size: 30px;
-    color: #42BA78;
+  /*  color: #42BA78; */
+	color: #03A9F4;
     font-weight: bold;
 }
 
@@ -282,7 +284,8 @@ p {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #42BA78;
+ /*   background-color: #42BA78; */
+	background-color: #03A9F4;
     position: absolute;
     left: -4px;
     top: 10px;
