@@ -798,6 +798,10 @@ p {
     image-rendering: crisp-edges;
 }
 
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
 
 /******************* Hamburger *****************/
 
