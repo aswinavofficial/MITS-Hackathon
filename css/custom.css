@@ -724,8 +724,8 @@ p {
 }
 
 .contact-list li {
-    /*color: #05406B; */
-	color: #03A9F4;
+    color: #05406B; 
+   /*	color: #03A9F4; */
     font-size: 28px;
     font-weight: 600;
     padding: 0 40px;
