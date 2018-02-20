@@ -208,20 +208,20 @@ p {
 .about h2 {
 	margin-bottom: 30px;
 }
-.carestack {
+.mitshackathon {
     display: block;
     margin-top: 50px;
     margin-bottom: 40px;
 }
 
-.carestack img {
+.mitshackathon img {
     margin: 0 auto;
     display: block;
 	width : 200px;
 	height : 45px;
 }
 
-.carestack:hover {
+.mitshackathon:hover {
     opacity: 0.89;
 }
 
