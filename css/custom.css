@@ -724,7 +724,8 @@ p {
 }
 
 .contact-list li {
-    color: #05406B;
+    /*color: #05406B; */
+	color: #03A9F4;
     font-size: 28px;
     font-weight: 600;
     padding: 0 40px;
@@ -732,7 +733,8 @@ p {
     line-height: 1;
 }
 .contact-list li a {
-	color: #05406B;
+	/*color: #05406B; */
+	color: #03A9F4
 }
 .contact-list li a:hover {
 	opacity: 0.8;
