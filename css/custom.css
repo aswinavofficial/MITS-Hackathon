@@ -734,7 +734,8 @@ p {
     line-height: 1;
 }
 .contact-list li a {
-	color: #000000;
+	
+	color: #05406B;
 	/*color: #03A9F4 */
 }
 .contact-list li a:hover {
