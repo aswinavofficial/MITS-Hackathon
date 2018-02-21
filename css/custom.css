@@ -3,6 +3,12 @@ a.theme
 	color: #03A9F4; 
 }
 
+a.date, a.mut
+{
+	color:fff;
+	
+}
+
 @font-face {
     font-family: 'noven';
     src: url('fonts/novecentowide-medium-webfont.eot');
