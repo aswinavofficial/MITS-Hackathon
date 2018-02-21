@@ -209,7 +209,9 @@ p {
 }
 
 .about {
-    background: url('../images/about.png') #fff no-repeat center top;
+ 
+  background-color: #fff;
+
     background-size: cover;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: -moz-crisp-edges;
