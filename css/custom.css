@@ -1,3 +1,8 @@
+a.theme
+{
+	color: #03A9F4; 
+}
+
 @font-face {
     font-family: 'noven';
     src: url('fonts/novecentowide-medium-webfont.eot');
@@ -912,7 +917,3 @@ p {
 }
 
 
-a.theme
-{
-	color: #03A9F4; 
-}
