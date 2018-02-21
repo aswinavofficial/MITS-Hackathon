@@ -1,4 +1,4 @@
-#theme
+a.theme
 {
 	color: #03A9F4; 
 }
@@ -18,7 +18,8 @@ body {
 a {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color: inherit;
+  /*  color: inherit; */
+	color: #03A9F4; 
 }
 
 a:hover, a:visited, a:active, a:focus {
