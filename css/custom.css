@@ -5,7 +5,7 @@ a.theme
 
 a.date, a.mut, a.regt
 {
-	color:#fff;
+	color:#fff !important;
 }
 
 @font-face {
