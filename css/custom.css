@@ -238,7 +238,7 @@ p {
 .about p {
     max-width: 930px;
     margin: 0 auto 15px auto;
-    text-align: center;
+    text-align: justify;
     line-height: 2.2;
     font-weight: 600;
     color: #10416B;
@@ -580,6 +580,7 @@ p {
 
 .rules {
     background-color: #05406B;
+	background-color : #e94b4c;
 }
 
 .rules .container-fluid {
@@ -908,4 +909,10 @@ p {
 	color: white;
 	
 	
+}
+
+
+a.theme
+{
+	color: #03A9F4; 
 }

@@ -1,0 +1,178 @@
+
+
+/* Gb Schedules */
+
+.schedule-content .nav-tabs {
+	background-color: #f7f7f7;
+	border: 0;
+	margin-bottom: 25px;
+	padding: 0 25px;
+}
+
+.schedule-content .nav-tabs>li {
+	margin-right: 70px;
+}
+
+.schedule-content .nav-tabs>li>a {
+	margin-right: 0;
+	margin: 0;
+	border-radius: 0;
+	padding: 13px 15px 20px;
+	border: 0;
+	color: #29333f;
+	position: relative;
+}
+
+.schedule-content .nav-tabs>li>:after {
+    position: absolute;
+    content: "";
+   	bottom: -13px;
+    left: 50%;
+    margin-left: -18px;
+    border-left: 15px solid transparent;
+    border-right:15px solid transparent;
+    border-top: 15px solid #f7f7f7;
+    opacity: 0;
+}
+
+.schedule-content .nav-tabs>li.active>:after,
+.schedule-content .nav-tabs>li>:hover:after {
+	opacity: 1;
+}
+
+.schedule-content .nav-tabs>li>a span {
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+}
+
+.schedule-content .nav-tabs>li:hover a,
+.schedule-content .nav-tabs>li.active>a, 
+.schedule-content .nav-tabs>li.active>a:focus, 
+.schedule-content .nav-tabs>li.active>a:hover {
+	color: #29333f;
+	border: 0;
+	background-color: transparent;
+}
+
+.gb-schedules.width-bg {
+	background-color: #e94b4c;
+	background-attachment: fixed;
+	background-image: url(../images/bg/Schedule-bg.jpg);
+}
+
+.schedule {
+	background-color: #fff;
+}
+
+.schedule>ul>li {
+	color: #29333f;
+	padding: 20px 40px 35px;
+	cursor: pointer;
+	position: relative;
+	border-bottom: 1px solid #ed4d54;
+}
+
+.schedule>ul>li:nth-child(even) {
+	background-color: #f7f7f7;
+}
+
+.schedule>ul>li:after {
+	position: absolute;
+	content: "\f0c9";
+	top: 45px;
+	right: 45px;
+	font-size: 20px;
+	font-family: "fontawesome";
+}
+
+.schedule>ul>li.active:after {
+	content: "\f068";
+}
+
+.author-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.author-image,
+.schedule-summary {
+	display: none;
+}
+
+.schedule>ul>li.active .author-image,
+.schedule>ul>li.active .schedule-summary {
+	display: block;
+}
+
+.author-image img {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+.author-title {
+	font-weight: 300;
+}
+
+.author-title h2 {
+	font-size: 18px;
+	margin: 20px 0 5px;
+}
+
+.schedule-info {
+	line-height: 24px;
+	max-width: 735px;
+	padding-left: 30px;
+	position: relative;
+}
+
+.schedule-info:before {
+	position: absolute;
+	content: "";
+	left: -20px;
+	top: 50%;
+	margin-top: -32px;
+	width: 1px;
+	height: 65px;
+	background-color: #dfdfdf;
+}
+
+.schedule-info h2 {
+	font-size: 20px;
+	margin: 15px 0;
+	text-transform: capitalize;
+	color: #29333f;
+}
+
+.schedule-info ul {
+	overflow: hidden;
+}
+
+.schedule-info ul li {
+	float: left;
+	margin-right: 30px;
+}
+
+.schedule-info ul li i {
+	margin-right: 10px;
+}
+
+.schedule-info ul li span {
+	font-weight: 700;
+}
+
+.schedule-info ul li:last-child {
+	margin-right: 0;
+}
+
+.schedule>ul>li.gb-break {
+	cursor: inherit;
+}
+
+.schedule>ul>li.gb-break:after {
+	display: none;
+}
