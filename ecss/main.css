@@ -74,6 +74,7 @@ input:focus {
 a {
 color: #e23c3b;
 	}  */
+	/*
 a:hover {
 	color: #e94b4c;
 }
@@ -89,7 +90,7 @@ input:focus, textarea:focus, select:focus,
     text-decoration: none;
     box-shadow: none;
 }
-
+*/
 button {
 	background-color: transparent;
 	border: none;
