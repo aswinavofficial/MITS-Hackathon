@@ -72,8 +72,7 @@ input:focus {
 }
 
 a {
-/*color: #e23c3b; */
-color: inherit;
+color: #e23c3b; 
 	}  
 	/*
 a:hover {
@@ -180,13 +179,13 @@ button {
 	border-top-color: #fff;
 	border-bottom-color: #fff;
 }
-
+/*
 .button-red:hover {
 	color: #e94b4c;
 	background-color: #fff;
 	border-color: #e94b4c;
 }
-
+*/
 .btn.button-white {
 	color: #e94b4c;
 	margin-right: 10px;
