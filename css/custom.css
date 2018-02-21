@@ -160,6 +160,24 @@ p {
   margin-left: 500px;   
 }
 
+.reg1 
+{
+	text-align: center;
+    font-weight: bold;
+    background: transparent !important;
+    border: 3px solid #313131; 
+	box-sizing: border-box;
+  line-height: 4.8rem;
+/*  border-color: #FFFFFF; */
+  	border-color : #03A9F4;
+  color: #FFFFFF;
+  font-size:25pt;
+ /* border-width: thin;  */
+  width:200px;
+   margin-top:20px; 
+   
+}
+
 .boxr
 {
   box-sizing: border-box;
