@@ -4,6 +4,9 @@ a.theme
 }
 
 a.date, a.mut, a.regt
+{
+	color:#fff;
+}
 
 @font-face {
     font-family: 'noven';
