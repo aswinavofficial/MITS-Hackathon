@@ -70,10 +70,11 @@ input:focus {
 	text-decoration:none;
 	outline: none;
 }
-/*
+
 a {
-color: #e23c3b;
-	}  */
+/*color: #e23c3b; */
+color: inherit;
+	}  
 	/*
 a:hover {
 	color: #e94b4c;
