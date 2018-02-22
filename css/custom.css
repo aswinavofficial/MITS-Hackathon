@@ -1,3 +1,14 @@
+#par {
+    font-weight: 600;
+    font-size: 18px;
+    color: #05406B;
+    padding: 20px 40px;
+    margin: 30px 0 25px 0;
+    border-top: 2px solid #B4C9D8;
+    border-bottom: 2px solid #B4C9D8;
+	text-align:center;
+}
+
 a.theme
 {
 	color: #03A9F4; 
@@ -600,16 +611,7 @@ p {
     border-bottom: 2px solid #B4C9D8;
 	text-align:justify;
 }
-.par {
-    font-weight: 600;
-    font-size: 18px;
-    color: #05406B;
-    padding: 20px 40px;
-    margin: 30px 0 25px 0;
-    border-top: 2px solid #B4C9D8;
-    border-bottom: 2px solid #B4C9D8;
-	text-align:center;
-}
+
 
 .runner-ups {
     color: #6D6E71;
