@@ -1,3 +1,22 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.shortlisted {
+    font-weight: 600;
+    font-size: 18px;
+    color: #05406B;
+    padding: 20px 40px;
+    margin: 30px 0 25px 0;
+    border-top: 2px solid #B4C9D8;
+    border-bottom: 2px solid #B4C9D8;
+	text-align:center;
+}
+
+
+}
+
+
+
+
 #par {
     font-weight: 600;
     font-size: 18px;
